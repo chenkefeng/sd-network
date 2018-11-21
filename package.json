@@ -1,0 +1,28 @@
+{
+  "name": "sd-network",
+  "version": "1.0.0",
+  "description": "速道科技小程序网络请求库",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/.bin tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenkefeng/sd-network.git"
+  },
+  "author": "chenkfjava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenkefeng/sd-network/issues"
+  },
+  "homepage": "https://github.com/chenkefeng/sd-network#readme",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
